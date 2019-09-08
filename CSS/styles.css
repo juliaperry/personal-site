@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+ }
+
+ h1 {
+   font-size: 5.625rem;
+   font-family: 'Sacramento', cursive;
+   line-height: 2;
+   margin: 50px auto 0 auto;
+   color: #66BFBF;
+
+ }
+
+ h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   color: #66BFBF;
+   font-weight: normal;
+
+ }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 4%;
+
+}
+
+p {
+  margin: .5%;
+  line-height: 2;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #478686;
+    border-radius: 8px;
+    background: #75dcdc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#75dcdc), to(#478686));
+    background: -moz-linear-gradient(top, #75dcdc, #478686);
+    background: linear-gradient(to bottom, #75dcdc, #478686);
+    text-shadow: #336060 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 50px;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #66bfbf;
+    background: #8cffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8cffff), to(#55a1a1));
+    background: -moz-linear-gradient(top, #8cffff, #55a1a1);
+    background: linear-gradient(to bottom, #8cffff, #55a1a1);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #478686;
+    background: -webkit-gradient(linear, left top, left bottom, from(#478686), to(#478686));
+    background: -moz-linear-gradient(top, #478686, #478686);
+    background: linear-gradient(to bottom, #478686, #478686);
+}
+ a {
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+ }
+
+ a:hover {
+  color: #EAF6F6;
+   }
+.content-pic {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.loading-bar {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.profilepic {
+  border-radius: 50%;
+  margin: 40px;
+  margin-bottom: 0.75%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+
+}
+
+.middle-container {
+margin: 0;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.copyright {
+color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+
+
+
+}
+.top-cloud {
+  position: absolute;
+   right: 300px;
+  top: 50px;
+}
